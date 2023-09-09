@@ -1,0 +1,66 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 29/08/2018 18:34
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-multimedia:before { content: "\f100"; }
+.flaticon-drawing:before { content: "\f101"; }
+.flaticon-drawing-1:before { content: "\f102"; }
+.flaticon-layers:before { content: "\f103"; }
+.flaticon-cogwheel:before { content: "\f104"; }
+.flaticon-construction:before { content: "\f105"; }
+.flaticon-can:before { content: "\f106"; }
+.flaticon-signs:before { content: "\f107"; }
+.flaticon-favorite:before { content: "\f108"; }
+.flaticon-arrows:before { content: "\f109"; }
+.flaticon-note:before { content: "\f10a"; }
+.flaticon-computer:before { content: "\f10b"; }
+.flaticon-phone-settings:before { content: "\f10c"; }
+.flaticon-technology:before { content: "\f10d"; }
+.flaticon-envelope:before { content: "\f10e"; }
+.flaticon-note-1:before { content: "\f10f"; }
+.flaticon-social:before { content: "\f110"; }
+.flaticon-left-quotes-sign:before { content: "\f111"; }
+.flaticon-businessman:before { content: "\f112"; }
+.flaticon-edit:before { content: "\f113"; }
+.flaticon-curriculum:before { content: "\f114"; }
+.flaticon-layers-1:before { content: "\f115"; }
+.flaticon-tools:before { content: "\f116"; }
+.flaticon-set-square:before { content: "\f117"; }
+.flaticon-blog:before { content: "\f118"; }
+.flaticon-send-mail:before { content: "\f119"; }
+.flaticon-smartphone:before { content: "\f11a"; }
+.flaticon-book:before { content: "\f11b"; }
+.flaticon-case:before { content: "\f11c"; }
+.flaticon-vector:before { content: "\f11d"; }
+.flaticon-pen-tool:before { content: "\f11e"; }
+.flaticon-coding:before { content: "\f11f"; }
+.flaticon-phone:before { content: "\f120"; }
+.flaticon-tools-and-utensils:before { content: "\f121"; }
+.flaticon-folder:before { content: "\f122"; }
+.flaticon-web-design:before { content: "\f123"; }
+.flaticon-photo-camera:before { content: "\f124"; }
