@@ -30,7 +30,7 @@ The Bonn dataset can be downloaded from the official Bonn University website. To
 
 The OpenLORIS dataset is available for download through their official GitHub repository. To download the dataset, follow these steps:
 
-1. Visit the OpenLORIS dataset GitHub repository: [https://github.com/OpenLORIS-Scene/](https://github.com/OpenLORIS-Scene/).
+1. Visit the OpenLORIS dataset GitHub repository: [https://github.com/OpenLORIS-Scene/]([https://github.com/OpenLORIS-Scene/](https://shimo.im/docs/HhJj6XHYhdRQ6jjk/read)).
 2. Navigate to the dataset section.
 3. Follow the instructions provided in the repository to clone or download the dataset.
 
