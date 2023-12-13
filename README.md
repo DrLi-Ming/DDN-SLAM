@@ -59,7 +59,3 @@ The Euroc dataset can be downloaded from the official website. To download the d
 3. Follow the instructions provided on the website to request access and download the dataset.
 
 Please note that each dataset may have its own terms of use and licensing agreements. Make sure to carefully read and comply with the terms specified by each dataset provider.
-
-## License
-
-This repository does not host or distribute the datasets directly. Please refer to the respective dataset websites or repositories for licensing and usage details.
