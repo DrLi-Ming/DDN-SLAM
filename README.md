@@ -22,7 +22,7 @@ The TUM dataset is available for download from their official website. To access
 
 The Bonn dataset can be downloaded from the official Bonn University website. To download the dataset, do the following:
 
-1. Visit the Bonn University website: [https://www.bonn.de](https://www.bonn.de).
+1. Visit the Bonn University website: [https://www.bonn.de](https://www.bonn.de](http://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/).
 2. Locate the dataset section.
 3. Follow the instructions to obtain access to the dataset and download it.
 
