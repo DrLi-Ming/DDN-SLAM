@@ -14,7 +14,7 @@ This repository provides instructions for downloading various datasets used in c
 
 The TUM dataset is available for download from their official website. To access the dataset, follow these steps:
 
-1. Go to the TUM dataset website: [https://www.tum.de](https://www.tum.de).
+1. Go to the TUM dataset website: [https://www.tum.de](https://vision.in.tum.de/data/datasets).
 2. Navigate to the dataset section.
 3. Follow the provided instructions to request access and download the dataset.
 
