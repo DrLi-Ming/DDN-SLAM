@@ -1,35 +1,65 @@
 # Coming soon!
-# Evaluation of Camera Pose Accuracy
+# Dataset Downloads
 
-This repository contains the code for evaluating the accuracy of estimated camera poses using the TUM [^1] and Bonn [^2] RGB-D dynamic datasets.
+This repository provides instructions for downloading various datasets used in computer vision and robotics research. The following datasets are included:
 
-## Datasets
+- [TUM Dataset](#tum-dataset)
+- [Bonn Dataset](#bonn-dataset)
+- [OpenLORIS Dataset](#openloris-dataset)
+- [Replica Dataset](#replica-dataset)
+- [ScanNet Dataset](#scannet-dataset)
+- [Euroc Dataset](#euroc-dataset)
 
-- TUM: We selected 6 different indoor dynamic sequences with moving people and violent camera shaking for evaluation.
-- Bonn: We selected 20 sequences of more complex dynamic motion in indoor scenes.
+## TUM Dataset
 
-## Evaluation Metrics
+The TUM dataset is available for download from their official website. To access the dataset, follow these steps:
 
-We used two metrics to measure the accuracy between the estimated camera poses and the ground truth:
+1. Go to the TUM dataset website: [https://www.tum.de](https://www.tum.de).
+2. Navigate to the dataset section.
+3. Follow the provided instructions to request access and download the dataset.
 
-1. Absolute Trajectory Error (ATE): This metric measures the absolute error in trajectory estimation, expressed in meters.
-2. Relative Pose Error (RPE): This metric measures the relative error in pose estimation, expressed in meters per second.
+## Bonn Dataset
 
-For detailed definitions of these metrics, please refer to the TUM dataset documentation [^1].
+The Bonn dataset can be downloaded from the official Bonn University website. To download the dataset, do the following:
 
-## System Configuration
+1. Visit the Bonn University website: [https://www.bonn.de](https://www.bonn.de).
+2. Locate the dataset section.
+3. Follow the instructions to obtain access to the dataset and download it.
 
-All experiments were performed on a desktop computer with the following specifications:
+## OpenLORIS Dataset
 
-- CPU: 3.6 GHz Intel Core i9-9900K
-- RAM: 16 GB
-- GPU: No GPU acceleration was used.
+The OpenLORIS dataset is available for download through their official GitHub repository. To download the dataset, follow these steps:
 
-## Usage
+1. Visit the OpenLORIS dataset GitHub repository: [https://github.com/OpenLORIS-Scene/](https://github.com/OpenLORIS-Scene/).
+2. Navigate to the dataset section.
+3. Follow the instructions provided in the repository to clone or download the dataset.
 
-Please refer to the instructions provided in the respective dataset directories for running the evaluation code.
+## Replica Dataset
 
-## References
+The Replica dataset can be downloaded from the official website. To download the dataset, do the following:
 
-[^1]: TUM Dataset. Website: [https://www.tum.de](https://www.tum.de)
-[^2]: Bonn Dataset. Website: [https://www.bonn.de](https://www.bonn.de)
+1. Go to the Replica dataset website: [https://www.replica-dataset.com](https://www.replica-dataset.com).
+2. Locate the dataset section.
+3. Follow the instructions provided on the website to request access and download the dataset.
+
+## ScanNet Dataset
+
+The ScanNet dataset is available for download through their official website. To download the dataset, follow these steps:
+
+1. Visit the ScanNet dataset website: [https://www.scan-net.org](https://www.scan-net.org).
+2. Navigate to the dataset section.
+3. Follow the instructions provided on the website to request access and download the dataset.
+
+## Euroc Dataset
+
+The Euroc dataset can be downloaded from the official website. To download the dataset, do the following:
+
+1. Go to the Euroc dataset website: [https://www.euroc-project.eu](https://www.euroc-project.eu).
+2. Locate the dataset section.
+3. Follow the instructions provided on the website to request access and download the dataset.
+
+Please note that each dataset may have its own terms of use and licensing agreements. Make sure to carefully read and comply with the terms specified by each dataset provider.
+
+## License
+
+This repository does not host or distribute the datasets directly. Please refer to the respective dataset websites or repositories for licensing and usage details.
