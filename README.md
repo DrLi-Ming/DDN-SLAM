@@ -1,61 +1,38 @@
-# Code will come after the paper is accpeted
-# Dataset Downloads
+# DDN-SLAM
 
-This repository provides instructions for downloading various datasets used in computer vision and robotics research. The following datasets are included:
+The paper is available in https://arxiv.org/abs/2401.01545
+<!-- - [Video](https://www.youtube.com/watch?v=XVrVLun0ckk&ab_channel=%E9%8D%BE%E8%B5%B7%E9%B3%B4) 
 
-- [TUM Dataset](#tum-dataset)
-- [Bonn Dataset](#bonn-dataset)
-- [OpenLORIS Dataset](#openloris-dataset)
-- [Replica Dataset](#replica-dataset)
-- [ScanNet Dataset](#scannet-dataset)
-- [Euroc Dataset](#euroc-dataset)
+More details can be found in my master thesis (Main content is written in English).
+- [offical link (require registration to download)](https://etds.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=ldn10D/record?r1=1&h1=0)
+- [pdf](https://drive.google.com/file/d/1WYjB8JAu0lATqvtImMTieT8PcewzS5CM/view)
+-->
 
-## TUM Dataset
+DDN-SLAM is implemented with two open source projects
 
-The TUM dataset is available for download from their official website. To access the dataset, follow these steps:
+- [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) (GPLv3 license)
+- [instant-ngp](https://github.com/NVlabs/instant-ngp) (Nvidia Source Code License-NC)
 
-1. Go to the TUM dataset website: [https://www.tum.de](https://vision.in.tum.de/data/datasets).
-2. Navigate to the dataset section.
-3. Follow the provided instructions to request access and download the dataset.
+## License
+This repo is GPLv3 Licensed. <!-- It reimplements parts of ORB-SLAM2. Our changes to instant-NGP (Nvidia License) are released in [our fork of instant-ngp](https://github.com/MarvinChung/instant-ngp-kf/tree/8344e4e63af70b0a792ff83bfdeb4c67b477681e) and added here as a thirdparty dependency using git submodules. Several evaluation files in `scripts` are BSD License. -->
 
-## Bonn Dataset
+## How to build
+Please refer to [BUILD.md](./BUILD.md)
 
-The Bonn dataset can be downloaded from the official Bonn University website. To download the dataset, do the following:
+## RUN on TUM
+Please refer to [TUM.md](./TUM.md)
 
-1. Visit the Bonn University website: [https://www.bonn.de](http://www.ipb.uni-bonn.de/data/rgbd-dynamic-dataset/).
-2. Locate the dataset section.
-3. Follow the instructions to obtain access to the dataset and download it.
+## RUN on Replica
+Please refer to [Replica.md](./Replica.md)
 
-## OpenLORIS Dataset
+## RUN on ScanNet
+Please refer to [ScanNet.md](./ScanNet.md)
 
-The OpenLORIS dataset is available for download through their official GitHub repository. To download the dataset, follow these steps:
+## RUN on a custom dataset
+Please refer to [Custom.md](./Custom.md)
 
-1. Visit the OpenLORIS dataset GitHub repository: https://shimo.im/docs/HhJj6XHYhdRQ6jjk/read.
-3. Navigate to the dataset section.
-4. Follow the instructions provided in the repository to clone or download the dataset.
+## Evaluation
+Please refer to [Eval.md](./Eval.md)
 
-## Replica Dataset
-
-The Replica dataset can be downloaded from the official website. To download the dataset, do the following:
-
-1. Go to the Replica dataset website: [https://www.replica-dataset.com](https://www.replica-dataset.com).
-2. Locate the dataset section.
-3. Follow the instructions provided on the website to request access and download the dataset.
-
-## ScanNet Dataset
-
-The ScanNet dataset is available for download through their official website. To download the dataset, follow these steps:
-
-1. Visit the ScanNet dataset website: [https://www.scan-net.org](https://www.scan-net.org).
-2. Navigate to the dataset section.
-3. Follow the instructions provided on the website to request access and download the dataset.
-
-## Euroc Dataset
-
-The Euroc dataset can be downloaded from the official website. To download the dataset, do the following:
-
-1. Go to the Euroc dataset website: [https://www.euroc-project.eu](https://www.euroc-project.eu).
-2. Locate the dataset section.
-3. Follow the instructions provided on the website to request access and download the dataset.
-
-Please note that each dataset may have its own terms of use and licensing agreements. Make sure to carefully read and comply with the terms specified by each dataset provider.
+## Acknowledgments
+This work has been possible thanks to the open-source code from [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [instant-ngp](https://github.com/NVlabs/instant-ngp), as well as the open-source datasets [Replica](https://github.com/facebookresearch/Replica-Dataset) and [TUM-dataset](https://vision.in.tum.de/data/datasets/rgbd-dataset/download).
