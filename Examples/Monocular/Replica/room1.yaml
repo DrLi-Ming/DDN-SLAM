@@ -1,0 +1,127 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+File.version: "1.0"
+
+Camera.type: "PinHole"
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera1.fx: 600.0
+Camera1.fy: 600.0
+Camera1.cx: 599.5
+Camera1.cy: 339.5
+
+Camera1.k1: 0.00023840576144970707
+Camera1.k2: -0.00031479749960004814
+Camera1.p1: -7.392305313239943e-05
+Camera1.p2: -2.771600122416197e-05
+
+Camera.width: 1200
+Camera.height: 680
+
+# Camera frames per second 
+Camera.fps: 30
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+Stereo.ThDepth: 50.0
+Stereo.b: 0.0767
+
+# Depth map values factor
+RGBD.DepthMapFactor: 6553.5 # 1.0 for ROS_bag
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+# ORB Extractor: Number of features per image
+ORBextractor.nFeatures: 1000
+
+# ORB Extractor: Scale factor between levels in the scale pyramid 	
+ORBextractor.scaleFactor: 1.2
+
+# ORB Extractor: Number of levels in the scale pyramid	
+ORBextractor.nLevels: 8
+
+# ORB Extractor: Fast threshold
+# Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
+# Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
+# You can lower these values if your images have low contrast			
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0
+
+Camera:
+  fx: 600.0 
+  fy: 600.0 
+  cx: 599.5 
+  cy: 339.5
+  k1: 0.00023840576144970707
+  k2: -0.00031479749960004814
+  p1: -7.392305313239943e-05
+  p2: -2.771600122416197e-05
+  k3: 0
+  width: 1200
+  height: 680 
+# Camera frames per second
+  fps: 30.0 
+# IR projector baseline times fx (aprox.)
+  bf: 40.0
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+  RGB: 1 
+
+#--------------------------------------------------------------------------------------------
+# Depth Parameters.
+#--------------------------------------------------------------------------------------------
+
+# Close/Far threshold. Baseline times.
+ThDepth: 40.0
+
+# Deptmap values factor 
+DepthMapFactor: 5000.0
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+
+ORBextractor:
+# ORB Extractor: Number of features per image
+  nFeatures: 1000
+# ORB Extractor: Scale factor between levels in the scale pyramid      
+  scaleFactor: 1.2 
+# ORB Extractor: Number of levels in the scale pyramid
+  nLevels: 8  
+# ORB Extractor: Fast threshold
+# Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
+# Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
+# You can lower these values if your images have low contrast     
+  iniThFAST: 20
+  minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# NeRF Parameters
+#--------------------------------------------------------------------------------------------
+
+NeRF:
+  aabb_scale: 4
+  scale: 0.33
+  offset: [0.5, 0.5, 0.5]
+  network_config_path: "./Thirdparty/instant-ngp-kf/configs/nerf/base.json"
+UseDynamic: 0
