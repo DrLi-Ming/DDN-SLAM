@@ -28,7 +28,8 @@
  This repo is GPLv3 Licensed. <!-- It reimplements parts of ORB-SLAM2. Our changes to instant-NGP (Nvidia License) are released in [our fork of instant-ngp](https://github.com/MarvinChung/instant-ngp-kf/tree/8344e4e63af70b0a792ff83bfdeb4c67b477681e) and added here as a thirdparty dependency using git submodules. Several evaluation files in `scripts` are BSD License. -->
  
  ## How to build
- Please refer to [BUILD.md](https://github.com/MarvinChung/Orbeez-SLAM/blob/main//BUILD.md)
+ 1. Install [yolo_ros](https://github.com/jianhengLiu/yolo_ros/tree/tensorrt)
+ 2. Please refer to [BUILD.md](https://github.com/MarvinChung/Orbeez-SLAM/blob/main//BUILD.md)
  
  ## RUN on TUM
  Please refer to [TUM.md](https://github.com/MarvinChung/Orbeez-SLAM/blob/main//TUM.md)
