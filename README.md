@@ -10,13 +10,7 @@
  
  # Introduction
  
- The paper is available in https://arxiv.org/abs/2401.01545
- <!-- - [Video](https://www.youtube.com/watch?v=XVrVLun0ckk&ab_channel=%E9%8D%BE%E8%B5%B7%E9%B3%B4) 
- 
- More details can be found in my master thesis (Main content is written in English).
- - [offical link (require registration to download)](https://etds.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=ldn10D/record?r1=1&h1=0)
- - [pdf](https://drive.google.com/file/d/1WYjB8JAu0lATqvtImMTieT8PcewzS5CM/view)
- -->
+ The paper is available in https://doi.org/10.1109/LRA.2025.3546130
  
  DDN-SLAM is implemented with three open source projects
  
@@ -25,7 +19,7 @@
  - [instant-ngp](https://github.com/NVlabs/instant-ngp) (Nvidia Source Code License-NC)
  
  ## License
- This repo is GPLv3 Licensed. <!-- It reimplements parts of ORB-SLAM2. Our changes to instant-NGP (Nvidia License) are released in [our fork of instant-ngp](https://github.com/MarvinChung/instant-ngp-kf/tree/8344e4e63af70b0a792ff83bfdeb4c67b477681e) and added here as a thirdparty dependency using git submodules. Several evaluation files in `scripts` are BSD License. -->
+This repo is GPLv3 Licensed.
  
  ## How to build
  1. Install [yolo_ros](https://github.com/jianhengLiu/yolo_ros/tree/tensorrt)
@@ -48,3 +42,20 @@
  
  ## Acknowledgments
  This work has been possible thanks to the open-source code from [Orbeez-SLAM](https://github.com/MarvinChung/Orbeez-SLAM),[ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [instant-ngp](https://github.com/NVlabs/instant-ngp), as well as the open-source datasets [Replica](https://github.com/facebookresearch/Replica-Dataset) and [TUM-dataset](https://vision.in.tum.de/data/datasets/rgbd-dataset/download).
+
+
+## Citation
+If you find our work useful, please kindly cite us:
+
+```bibtex
+@ARTICLE{10904342,
+  author={Li, Mingrui and Guo, Zhetao and Deng, Tianchen and Zhou, Yiming and Ren, Yuxiang and Wang, Hongyu},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={DDN-SLAM: Real Time Dense Dynamic Neural Implicit SLAM}, 
+  year={2025},
+  volume={10},
+  number={5},
+  pages={4300-4307},
+  keywords={Simultaneous localization and mapping;Semantics;Rendering (computer graphics);Neural radiance field;Feature extraction;Dynamics;Real-time systems;Optical flow;Accuracy;Interference;Dense visual SLAM;dynamic SLAM;neural implicit mapping},
+  doi={10.1109/LRA.2025.3546130}}
+```
